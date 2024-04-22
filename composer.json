@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "awcodes/filament-curator": "dev-cluster-panel",
         "filament/filament": "^3.0-stable",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9"
@@ -64,5 +65,11 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/atmonshi/filament-curator"
+        }
+    ]
 }

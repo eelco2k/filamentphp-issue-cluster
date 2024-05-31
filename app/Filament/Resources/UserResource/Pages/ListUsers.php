@@ -24,8 +24,8 @@ class ListUsers extends ListRecords
         return [
             IncomeChart::class,
             ExpenseChart::class,
-            IncomeChart::class,
-            ExpenseChart::class,
+            // IncomeChart::class,
+            // ExpenseChart::class,
         ];
     }
 }
